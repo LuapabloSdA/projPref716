@@ -1,118 +1,87 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Historia de Mar Vermelho</title>
-        <style>
-            #pag_cima{
-                display: flex;
-                width: 100%;
-                height: 100px;
-                background-color: red;
-                align-items: center;
-                color: rgb(255, 255, 255);
-                margin: 5px;
-            }
-            #dentro_cima{
-                display: flex;
-                width: 58%;
-                height: 60px;
-                background-color: red;
-                align-items: center;
-                margin: 90px;
-                justify-content: space-between;
-            }
-            #pag_menu{
-                height: 15%;
-                width: 15%;
-                background-color: green;
-                text-align: center;
-                float:left;
-                align-items: center;
-                margin: 5px;
-                padding: 5px;
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-            }
-            #pag_meio{
-                height: 50%;
-                width: 65%;
-                float: left;
-                text-align: center;
-                margin: 5px;
-                padding: 5px;
-            }
-            #prefeitos{
-                height: 100%;
-                width: 150px;
-                background-color: blue;
-                float: right;
-                text-align: center;
-            }
-            #traco{
-                text-decoration: underline;
-                color: rgb(255, 255, 255);
-            }
-            #div{
-                max-width: 320px;
-                max-height: 800px;
-                margin: auto;
-            }
-            #traco2{
-                text-decoration: underline;
-            }
-            #pag_menu a{
-                text-decoration: none;
-                display: block;
-                padding: 10px 14px;
-                color: yellow;
-            }
-            #pag_menu a:hover{
-                transition: 0,5s;
-                background-color: rgba(11, 179, 6, 0.829);
-                color:rgb(255, 0, 0);
-            }
-        </style>
-    </head>
-    <body>
-        <div id="pag_cima">
-            <div id="dentro_cima">
-                <img src="https://user-images.githubusercontent.com/98188181/152560019-7bcf0a8d-c130-493c-888f-2afe2c1331e1.png" width="60" height="60">
-                <h1 id="traco">João Gomes da Silva(João Deó)</h1>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>João Gomes da Silva(João Deó)</title>
+  </head>
+  <body>
+      <!--Pagina Fixa, no caso a Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed col-12 m-auto" style="z-index: 999; ">
+          <img src="https://user-images.githubusercontent.com/98188181/152560019-7bcf0a8d-c130-493c-888f-2afe2c1331e1.png" height="30px" width="30px">
+          <h1 style="color: white;" >Historia</h1>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end m-auto " id="conteudoNavbarSuportado">
+            <div class="nav-item my-2 my-lg-0 ">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projHistoria/">Voltar</a>
             </div>
-        </div>
-        <div id="pag_menu">
-            <h3 id="traco">Prefeitos e Historia</h3>
-            <p><a href="https://luapablosda.github.io/projHistoria/">Voltar</a><p></p>
-            <p><a href="https://luapablosda.github.io/projPref711/">Ernesto</a></p>
-            <p><a href="https://luapablosda.github.io/projPref712/">Jerônimo</a></p>
-            <p><a href="https://luapablosda.github.io/proPref713/">Geraldo</a></p>
-            <p><a href="https://luapablosda.github.io/proPref714/">Abel</a></p>
-            <p><a href="https://luapablosda.github.io/projPref715/">Luiz Clarindo</a></p>
-            <p><a href="https://luapablosda.github.io/projPref717/">Afrânio</a></p>
-            <p><a href="https://luapablosda.github.io/projPref718/">Hermann Elson</a></p>
-        </div>
-        <div id="pag_meio">
-            <img src="https://user-images.githubusercontent.com/98188181/159741405-c3880b28-9e5e-49a4-917f-1d2733bbba1e.jpg" width="250" height="250">
-            <h2>Sua Biografia</h2>
-            <p> Nasceú em 08 de maio de 1939, no Sítio Barro Preto(Paulo Jacinto), filho de Antônio gomes 
-                de Freire e Diolina Godói de Lima. Estudou todo o curso primário no mesmo sítio. Ainda 
-                adolescente, as dificuldades o fizeram abandonar a escola e se tornar agrícultor. Em 31 
-                de janeiro em 1961, João Deó se casou com Maria José da Silva e resisdiu por três anos 
-                local onde nasceu.<br> Em 1964, mudou-se para o Sítio Barra, já em Mar Vermelho, e comprou dos cunhados, 
-                uma pequena propriedade que, ao longo de sua trajetória de vida, chegou a apenas 30 tarefas. A 
-                partir de 1973, a popularidade e as amizades consquistas na região o levou a ingressar na vida 
-                política, tornando-se vereador por três vezes consecutivas, sendo que, na última delas, no ano de 1977, 
-                o prefeito abel Nascimento faleceu. A predeitura doi fraudada e o vice-prefeito fugiu da cidade, 
-                deicando-a sem governamente. Foi nesse clima de tumulto que o presidente da Câmara de Vereadores, 
-                o João Deó, ocupou o cargo de prefeito. João Deó, em menos de um ano de governo, conseguiu pagar as 
-                dívidas deixadas e cumprir com os compromissos dentro do período que a lei estabelecia, além de 
-                entregar o cargo, ao sucessor, com dinheiro no cofre e na conta bancária da prefeitura. Foi o único 
-                governante que conseguiu realizar essa façanha dentre todos os que já ocuparam o cargo 
-                (excluindo Abel Nascimento, que morrera em pleno começo de mandato).<br>
-                Em 1988, é eleito prefeito de Mar Vermelho, mesmo com a saúde, já debilitada, Só esteve 
-                à frente do poder por um ano, tendo que lutar contra um terrível câncer. Pouco pôde 
-                fazer por seu município nessa sua segunda passagem pela prefeitura. Finalmente, depois 
-                de muito sofrimento, em 16 de janeiro de 1990 sua vida foi ceifada pelo câncer.
-            </p>
-        </div>
-    </body>
+            <div class="nav-item my-2 my-lg-0">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref711/">Ernesto Neto</a>
+            </div>
+            <div class="nav-item my-2 my-lg-0">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref712/">Jerônimo</a>
+            </div>
+            <div class="nav-item my-2 my-lg-0">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref713/">Geraldo/a>
+            </div>
+            <div class="nav-item my-2 ">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref714/">Abel</a>
+            </div>
+            <div class="nav-item my-2 ">
+                <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref715/">Luiz Clarindo</a>
+            </div>
+            <div class="nav-item my-2 ">
+                <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref717/">Afrânio</a>
+            </div>
+            <div class="nav-item my-2 ">
+                <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref718/">Hermann Elson</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <br><br><br>
+      <br>
+      <!-- Até aqui a Pagina Fixa-->
+    <h1 class="text-center">João Gomes da Silva(João Deó)</h1>
+    <div class="text-center">
+        <img src="https://user-images.githubusercontent.com/98188181/159741405-c3880b28-9e5e-49a4-917f-1d2733bbba1e.jpg" class="rounded" width="250px" height="300px" >
+    </div>
+    <h6 class="text-center">E sua Biografia</h6>
+    <br>
+    <p class="text-center col-9 m-auto">Nasceú em 08 de maio de 1939, no Sítio Barro Preto(Paulo Jacinto), filho de Antônio gomes 
+        de Freire e Diolina Godói de Lima. Estudou todo o curso primário no mesmo sítio. Ainda 
+        adolescente, as dificuldades o fizeram abandonar a escola e se tornar agrícultor. Em 31 
+        de janeiro em 1961, João Deó se casou com Maria José da Silva e resisdiu por três anos 
+        local onde nasceu.<br> Em 1964, mudou-se para o Sítio Barra, já em Mar Vermelho, e comprou dos cunhados, 
+        uma pequena propriedade que, ao longo de sua trajetória de vida, chegou a apenas 30 tarefas. A 
+        partir de 1973, a popularidade e as amizades consquistas na região o levou a ingressar na vida 
+        política, tornando-se vereador por três vezes consecutivas, sendo que, na última delas, no ano de 1977, 
+        o prefeito abel Nascimento faleceu. A predeitura doi fraudada e o vice-prefeito fugiu da cidade, 
+        deicando-a sem governamente. Foi nesse clima de tumulto que o presidente da Câmara de Vereadores, 
+        o João Deó, ocupou o cargo de prefeito. João Deó, em menos de um ano de governo, conseguiu pagar as 
+        dívidas deixadas e cumprir com os compromissos dentro do período que a lei estabelecia, além de 
+        entregar o cargo, ao sucessor, com dinheiro no cofre e na conta bancária da prefeitura. Foi o único 
+        governante que conseguiu realizar essa façanha dentre todos os que já ocuparam o cargo 
+        (excluindo Abel Nascimento, que morrera em pleno começo de mandato).<br>
+        Em 1988, é eleito prefeito de Mar Vermelho, mesmo com a saúde, já debilitada, Só esteve 
+        à frente do poder por um ano, tendo que lutar contra um terrível câncer. Pouco pôde 
+        fazer por seu município nessa sua segunda passagem pela prefeitura. Finalmente, depois 
+        de muito sofrimento, em 16 de janeiro de 1990 sua vida foi ceifada pelo câncer.</p>
+    <br>
+    <hr>
+    <br><br><br>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
